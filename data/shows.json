@@ -1,0 +1,32 @@
+[
+  {
+    "title": "The Matrix",
+    "genre": "Sci-Fi",
+    "rating": "R",
+    "year": 1999,
+    "thumbnail": "images/matrix.jpg"
+  },
+  {
+    "title": "Friends",
+    "genre": "Comedy",
+    "rating": "PG",
+    "year": 1994,
+    "thumbnail": "images/friends.jpg"
+  },
+  {
+    "title": "Planet Earth",
+    "genre": "Documentary",
+    "rating": "G",
+    "year": 2006,
+    "thumbnail": "images/planet_earth.jpg"
+  },
+  {
+    "title": "Madagascar",
+    "genre": "Animation",
+    "rating": "G",
+    "year": 2005,
+    "thumbnail" : "images/madagascar.jpg"
+
+  }
+  
+]
