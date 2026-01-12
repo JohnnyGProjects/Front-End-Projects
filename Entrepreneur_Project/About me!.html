@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PCForge | About Us</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Icons -->
+    <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    >
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header class="header">
+        <div class="container">
+            <div class="navigationBar">
+
+                <div class="logoPCForge">
+                    <a href="index.html">
+                        <img src="images/logo.png" width="125" alt="PCForge Logo">
+                    </a>
+                </div>
+
+                <nav>
+                    <ul id="menuitems">
+                        <li><a href="latest-news.html">Latest News</a></li>
+                        <li><a href="about.html" class="active">About</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="register.php">Account</a></li>
+                    </ul>
+                </nav>
+
+                <a href="cart.html">
+                    <img src="images/cart.png" width="30" height="30" alt="Cart">
+                </a>
+
+                <img
+                    src="images/menu.png"
+                    class="icon"
+                    alt="Menu"
+                    onclick="menutoggle()"
+                >
+            </div>
+        </div>
+    </header>
+
+    <!-- ================= MAIN ================= -->
+<div class="container about-container">
+    <h1 class="title">About Us</h1>
+
+    <div class="row about-row">
+        <div class="about-image">
+            <img
+                src="images/dunder-Mifflin-building-the-office-where-location.jpg"
+                alt="PCForge Building"
+            >
+        </div>
+
+        <div class="about-text">
+            <p>
+                Founded in 2023 by three Carleton University students, PCForge specializes
+                in the sale of assembled PCs and individual computer components. Our focus
+                is on delivering high-quality hardware and dependable customer service.
+            </p>
+
+            <p>
+                We offer pre-built systems for gamers, creators, and professionals, as
+                well as individual components such as GPUs, CPUs, motherboards, and power
+                supplies—allowing customers to build systems tailored to their needs.
+            </p>
+
+            <p>
+                By staying current with industry trends and emerging technologies, PCForge
+                continues to expand its offerings while providing a seamless shopping
+                experience.
+            </p>
+        </div>
+    </div>
+
+    <div class="about-founder text-center">
+        <h3>Founder</h3>
+        <p>
+            <strong>Johnny</strong> is the founder and CEO of PCForge. He is an aspiring
+            entrepreneur with a passion for technology and business, currently pursuing
+            an undergraduate degree in Information Technology at Carleton University in
+            Ottawa, Ontario.
+        </p>
+    </div>
+</div>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="footer-col-1">
+                    <h3>Contact Us</h3>
+                    <p>689-9586-3421</p>
+                    <p><a href="mailto:PCForge@gmail.com">PCForge@gmail.com</a></p>
+                    <p>Instagram</p>
+                </div>
+
+                <div class="footer-col-2">
+                    <img src="images/logo.png" alt="PCForge Logo">
+                </div>
+
+                <div class="footer-col-3">
+                    <h3>Useful Resources</h3>
+                    <ul>
+                        <li><a href="Return-Policy.html">Return Policy</a></li>
+                        <li><a href="warranty.html">Warranty</a></li>
+                        <li>Replacement Parts</li>
+                    </ul>
+                </div>
+
+                <div class="footer-col-4">
+                    <h3>Our Partners</h3>
+                    <ul>
+                        <li><a href="https://www.amd.com/en.html">AMD</a></li>
+                        <li><a href="https://www.asus.com/ca-en/">ASUS</a></li>
+                        <li><a href="https://www.corsair.com/ca/en/">Corsair</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <hr>
+            <p class="copyright">
+                © 2024 PCForge. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+
+    <!-- ================= SCRIPT ================= -->
+    <script>
+        const menuitems = document.getElementById("menuitems");
+        menuitems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            menuitems.style.maxHeight =
+                menuitems.style.maxHeight === "0px" ? "200px" : "0px";
+        }
+    </script>
+
+</body>
+</html>
