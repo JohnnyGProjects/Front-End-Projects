@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latest News!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navigationBar">
+                <div class="logoPCForge">
+                    <a href="index.html">
+                    <img src="images/logo.png" href="index.html" width="125px" alt="This is the logo"></a>
+                </div>
+                <nav>
+                    <ul id="menuitems"> <!--Making a list of what we want in our main menu-->
+                        <li><a href="latest-news.html">Latest-News</a></li>
+                        <li><a href="About me!.html">About</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="">Account</a></li> <!--adding a link tag so user can click on the menu items-->
+                    </ul>
+                </nav>
+                <a style="position: relative;" href="cart.html">
+                <!---<div class="cartAmount">0</div> -----------------for the number of the  cart-->
+                <img src="images/cart.png" width="30px" height="30px" alt="the cart icon"> </a>
+                <img src="images/menu.png" class="icon" onclick="menutoggle()"> <!--This will be the icon for the phone version of the website-->
+            </div>
+        </div>
+    </div>
+
+    <div id="news-container"></div>
+    <script src="latest-news.js"></script>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Contact Us</h3>
+                    <p>689-9586-3421</p>
+                    <p>PCForge@gmail.com</p>
+                    <p>Instagram</p>
+    
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo.png" alt="">
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Resources</h3>
+                    <ul>
+                        <li><a href="Return-Policy.html">Return-Policy</a></li>
+                        <li><a href="warranty.html">Warranty</a></li>
+                        <li>Replacement Parts</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Our Partners</h3>
+                    <ul>
+                        <li><a href="https://www.amd.com/en.html">AMD</a></li>
+                        <li><a href="https://www.asus.com/ca-en/">ASUS</a></li>
+                        <li><a href="https://www.corsair.com/ca/en/">CORSAIR</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">All Rights Reserved by PCForge</p>
+        </div>
+    </div>
+</body>
+</html>

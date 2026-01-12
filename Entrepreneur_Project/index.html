@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PCForge</title>
+    <link rel="stylesheet" href="style.css"> <!--Linking the CSS File for the style format which will apply to all the pages-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--This is for the font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> <!--This is for the icons-->
+</head>
+<body>
+
+<!--Start of the header-->
+    <div class="header">
+        <div class="container">
+            <div class="navigationBar">
+                <div class="logoPCForge">
+                    <img src="images/logo.png" href="index.html" width="125px" alt="This is the logo"> 
+                </div>
+                <nav>
+                    <ul id="menuitems"> <!--Making a list of what we want in our main menu-->
+                        <li><a href="latest-news.html">Latest-News</a></li>
+                        <li><a href="About me!.html">About</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="register.php">Account</a></li> <!--adding a link tag so user can click on the menu items-->
+                    </ul>
+                </nav>
+                <a style="position: relative;" href="cart.html">
+                <!---<div class="cartAmount">0</div> -----------------for the number of the  cart-->
+                <img src="images/cart.png" width="30px" height="30px" alt="the cart icon"> </a>
+                <img src="images/menu.png" class="icon" onclick="menutoggle()"> <!--This will be the icon for the phone version of the website-->
+            </div>
+            <div class="row">
+                <div class="column-1">
+                    <h1>Forge Your PC<br>One Component At A Time!</h1> <!--This will be the main header-->
+                    <p>Experience the power of bespoke computing with our custom-built PCs, tailored to<br>suit your every need and surpass your every expectation!</p>
+                    <a href="products.html" class="btn">Buy a PC Now! &#10132;</a> <!--https://www.toptal.com/designers/htmlarrows/symbols/heavy-wide-headed-right-arrow/ used this website for the html icon code-->
+                </div>
+                <div class="column-1">
+                    <img src="images/image1.png" alt="Gamer">
+                </div>
+            </div>
+        </div>
+    </div>
+        
+
+<!--Products-->
+<div class="small-container">
+    <h2 class="title">Our Flagship PC's</h2>
+    <div class="row">
+        <div class="column-3">
+        <img src="images/product-1.png" alt="">
+        <h4>Violet Abyss</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                <p>$3499.00</p>
+            </div>
+        </div>
+
+        <div class="column-3">
+        <img src="images/product-2.png" alt="">
+        <h4>White Wolf</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <p>$2799.00</p>
+            </div>
+        </div>
+
+
+        <div class="column-3">
+            <img src="images/product-3.png" alt="">
+            <h4>Prism Power</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <p>$2399.00</p>
+                </div>
+            </div>
+        
+        <div class="column-3">
+            <img src="images/product-4.png" alt="">
+            <h4>Sair Light</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <p>$999.00</p>
+                </div>
+            </div>
+
+    </div>
+
+
+
+    <h2 class="title">Lastest Components</h2>
+    <div class="row">
+        <div class="column-3">
+        <img src="images/category-1 (amd).png" alt="">
+        <h4>Ryzen 9 7950x3D</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                <p>$939.00</p>
+            </div>
+        </div>
+
+        <div class="column-3">
+        <img src="images/category-2(gpu).png" alt="">
+        <h4>Radeon 7000 Series GPU</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <p>$929-1399.00</p>
+            </div>
+        </div>
+
+
+        <div class="column-3">
+            <img src="images/category-3(motherboard).png" alt="">
+            <h4>ROG Maximus Z790 Extreme</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <p>$1499.00</p>
+                </div>
+            </div>
+        
+        <div class="column-3">
+            <img src="images/category-4(ssd).png" alt="">
+            <h4>Samsung 990 Pro 1TB</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <p>$499.00</p>
+                </div>
+            </div>
+
+        <div class="column-3">
+            <img src="images/category-5(cooler).png" alt="">
+            <h4>Corsair H150i Elite</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    <p>$399.00</p>
+                </div>
+            </div>
+        
+        <div class="column-3">
+            <img src="images/category-6(gpuNVIDIA).png" alt="">
+            <h4>NVIDIA 4090 FE</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <p>$2399.00</p>
+                </div>
+            </div>
+        
+        
+            <div class="column-3">
+                <img src="images/category-7(fan).png" alt="">
+                <h4>NZXT Aer RGB</h4>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <p>$75.00</p>
+                    </div>
+                </div>
+                
+            <div class="column-3">
+                <img src="images/category-8(psu).png" alt="">
+                <h4>ROG Thor 1000W</h4>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <p>$699.00</p>
+                    </div>
+                </div> 
+            </div>
+
+    </div>
+
+<!--featured-->
+    <div class="exclusive">
+        <div class="small-container">
+            <div class="row">
+                <div class="column-1">
+                    <img src="images/exclusive.png" class="exclusive-img" alt="">
+                </div>
+                <div class="column-1">
+                    <p>Asus x PCForge</p>
+                    <h1>3080 Evangelion Edition</h1>
+                    <small>Our team at PCForge partnered up with Asus ROG to create this one of a kind custom GPU for you anime lovers out there. <br> </small>
+                    <a href="" class="btn">Buy Now! &#10132</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--Customer Reviews-->
+<div class="customer_reviews">
+    <div class="small-container">
+        <div class="row">
+            <div class="column-2">
+                <p>Firstly, I must say that the craftsmanship and attention to detail that went into building this PC is truly remarkable. The level of precision in putting together every component is evident from the moment you power on the system. <br> </p>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <img src="images/user-1.jpg" alt="">
+                <h3>Mattie Boyle</h3>
+            </div>
+
+
+            <div class="column-2">
+                <p>In terms of performance, I must say that this PC has exceeded my expectations in every way. The speed and responsiveness of the system is unparalleled, and it handles even the most demanding applications and games with ease. <br></p>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <img src="images/user-2.jpg" alt="">
+                <h3>Rahul Gandhi</h3>
+            </div>
+
+
+            <div class="column-2">
+                <p> I am absolutely thrilled with the custom-built PC that I purchased, and I would highly recommend this company to anyone looking for a high-performance, customized system. Thank you for providing such an exceptional product and service! <br> </p>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <img src="images/user-3.jpg" alt="">
+                <h3>Hosea Matthews</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Footer-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Contact Us</h3>
+                <p>689-9586-3421</p>
+                <p>PCForge@gmail.com</p>
+                <p>Instagram</p>
+
+            </div>
+            <div class="footer-col-2">
+                <img src="images/logo.png" alt="">
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Resources</h3>
+                <ul>
+                    <li><a href="Return-Policy.html">Return-Policy</a></li>
+                    <li><a href="warranty.html">Warranty</a></li>
+                    <li>Replacement Parts</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Our Partners</h3>
+                <ul>
+                    <li><a href="https://www.amd.com/en.html">AMD</a></li>
+                    <li><a href="https://www.asus.com/ca-en/">ASUS</a></li>
+                    <li><a href="https://www.corsair.com/ca/en/">CORSAIR</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">All Rights Reserved by PCForge</p>
+    </div>
+</div>
+
+<!----Java Script Dynamic Menu got this idea online but edited it to fit the website  !!--> 
+<script>
+    var menuitems = document.getElementById("menuitems");
+    
+    menuitems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(menuitems.style.maxHeight == "0px"){
+            menuitems.style.maxHeight = "200px";
+        }
+        else{
+            menuitems.style.maxHeight = "0px";
+        }
+    }
+
+</script>
+
+</body>
+</html>
