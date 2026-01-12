@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Streaming Content Demo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<section id="movie-detail" class="hidden">
+  <div class="detail-overlay">
+    <img id="detail-image" />
+    <div class="detail-content">
+      <h1 id="detail-title"></h1>
+      <p id="detail-description"></p>
+      <button onclick="closeDetail()">Back</button>
+    </div>
+  </div>
+</section>
+
+  <header class="top-bar">
+    <h1>StreamBox</h1>
+
+    <div class="controls">
+      <input type="text" id="search" placeholder="Search titles...">
+
+      <select id="genreFilter">
+        <option value="All">All Genres</option>
+        <option value="Comedy">Comedy</option>
+        <option value="Sci-Fi">Sci-Fi</option>
+        <option value="Documentary">Documentary</option>
+      </select>
+    </div>
+  </header>
+
+  <main id="showContainer" class="grid"></main>
+  <div id="movie-container" class="movie-container"></div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
