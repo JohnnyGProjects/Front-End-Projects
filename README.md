@@ -15,8 +15,8 @@ A streaming-style interface demonstrating:
 - Dynamic rendering from JSON data
 - Search and genre filtering
 
-📁 Location: [`StreamBox/`](./StreamBox)  
-📖 Details: [`StreamBox README`](./StreamBox/README.md)
+📁 Location: `StreamBox/`  
+📖 Details: See `StreamBox/README.md`
 
 ---
 
