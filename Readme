@@ -1,0 +1,134 @@
+# 🎬 StreamBox — Streaming UI Prototype
+
+A front-end streaming interface project built with **HTML, CSS, and JavaScript**, designed to simulate content discovery and navigation patterns commonly used in streaming platforms and connected TV applications. This project demonstrates grid-based layouts, client-side data rendering, keyboard navigation, and detail views without using frameworks.
+
+---
+
+## 📁 Project File Structure
+
+streaming-content/
+│
+├── index.html # Application layout and UI structure
+├── styles.css # Styling and layout (Grid, Flexbox)
+├── script.js # Client-side application logic
+│
+├── images/ # Thumbnails and fallback assets
+│
+├── data/
+│ └── shows.json # Content metadata source
+
+
+---
+
+## 🧩 Application Overview
+
+### 🏠 `index.html`
+
+* Main entry point of the application
+* Defines the page layout, header, search input, genre filter, and content grid
+* Loads styles and application logic
+
+---
+
+### ⚙️ `script.js`
+
+* Fetches content from `data/shows.json`
+* Dynamically renders show cards
+* Implements search and genre filtering
+* Handles keyboard navigation using arrow keys and Enter
+* Manages focus state and selection highlighting
+* Controls the full-screen detail view overlay
+
+---
+
+### 🎨 `styles.css`
+
+* Centralized styling for the application
+* Grid-based layout for content discovery
+* Focus and hover states for keyboard navigation
+* Responsive design using CSS Grid and Flexbox
+* Full-screen detail view styling
+
+---
+
+### 🗂️ `data/shows.json`
+
+* Stores streaming content metadata
+* Acts as the single source of truth for displayed content
+* Includes title, genre, rating, year, and thumbnail path
+
+---
+
+## ⚙️ Core Functionality
+
+* Fetches and renders streaming content from a local JSON data source
+* Displays content in a responsive, grid-based layout
+* Filters content by genre
+* Supports title-based search
+* Implements keyboard navigation for remote-style interaction
+* Opens a full-screen detail view for selected content
+* Handles loading states, missing content, and image errors
+
+---
+
+## 📺 Streaming-Oriented Design
+
+* Keyboard-first navigation modeled after connected TV interfaces
+* Focus management using visual highlighting and programmatic focus
+* Grid-based content discovery patterns
+* Separation of data, logic, and presentation
+* Client-side rendering using vanilla JavaScript and the Fetch API
+
+---
+
+## 🛠️ Technologies Used
+
+* HTML5
+* CSS3 (CSS Grid, Flexbox)
+* JavaScript (ES6)
+* Fetch API
+* Local JSON data
+
+---
+
+## ▶️ Running the Application
+
+Because the application loads JSON using the Fetch API, it must be served through a local web server.
+
+### VS Code (Recommended)
+
+1. Install **Live Server**
+2. Open `index.html` with Live Server
+3. Open the provided local URL in a browser
+
+---
+
+## 📝 Notes
+
+* Opening `index.html` directly in a browser may prevent JSON data from loading due to browser security restrictions
+* The layout adapts automatically to screen size changes
+
+---
+
+## 🎯 Project Purpose
+
+This project was created to:
+
+* Demonstrate client-side scripting in a streaming application context
+* Showcase UI patterns used in content discovery platforms
+* Implement keyboard / remote-style navigation
+* Render data-driven interfaces without frameworks
+
+---
+
+## 👨‍💻 Author
+
+**Johnny (Yoseph Gebre)**  
+IT Graduate — Carleton University  
+Interest in software development, streaming platforms, and UI engineering
+
+---
+
+## 📄 License
+
+This project is for educational and portfolio purposes.
